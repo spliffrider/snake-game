@@ -20,7 +20,6 @@ function reset() {
   gameOver = false;
   updateScore();
   statusEl.textContent = 'Press any arrow key to start.';
-  clearInterval(loop);
   draw();
 }
 
